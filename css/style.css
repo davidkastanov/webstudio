@@ -1,34 +1,10 @@
-body{
-    background-color: white;
-}
-.dawn{
-    background-color: rgb(62, 54, 103);
-}
-.up{
-    background-color: white;
-}
-.number{
-    color: lightslategrey;
-}
-.imail{
-    color: lightslategrey;
-}
-.text{
-    color: rgb(66, 63, 63);
-
-}
-.address{
-    color: gray;
-}
-.decision{
-   background-color: rgb(62, 54, 103); 
-}
-.order{
-    background-color: blue;
-}
-.work{
-    color: darkgray;
-}
-.command{
-    background-color: rgb(208, 203, 203);
-}
+:root{
+    --acssent-color:#2196F3;
+    --logo-color:#000;
+    --text-color:#212121;
+    --footer-background:#2F303A;
+    --main-background:#FFF;
+    --team-background:#F5F4FA;
+    --footer-number:rgba(255, 255, 255, 0.60);
+    
+    }
