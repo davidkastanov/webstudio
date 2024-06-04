@@ -7,6 +7,9 @@
     --team-background:#F5F4FA;
     --footer-number:rgba(255, 255, 255, 0.60);
     }
+    body {
+      font-family: Roboto;
+    }
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
