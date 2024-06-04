@@ -83,4 +83,106 @@
         font-optical-sizing: auto;
         font-style: normal;
       }
+      .imy {
+ color: #212121;
+font-family: Roboto;
+font-size: 16px;
+font-style: italic;
+font-weight: 500;
+line-height: 1,18;
+      }
+      .work {
+color: #757575;
+font-family: Roboto;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 1,18;
+
+      }
+      .command{
+        olor: #212121;
+
+
+font-family: Roboto;
+font-size: 36px;
+font-style: italic;
+font-weight: 700;
+line-height: 1,16;
+      }
+      .doing{
+        color: #212121;
+font-family: Roboto;
+font-size: 36px;
+font-style: italic;
+font-weight: 700;
+line-height: 1,16;
+      }
+      .pro {
+        color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: italic;
+font-weight: 700;
+line-height: 0,87;
+      }
+      .subtitle {
+        color: #757575;
+
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      .title {
+        color: #FFF
+
+font-family: Roboto;
+font-size: 44px;
+font-style: italic;
+font-weight: 900;
+line-height: 60px;
+
+      }
+      .studio {
+        color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: italic;
+font-weight: 700;
+line-height: 1,38;
+
+      }
+      .nav {
+        color: #212121;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+      }
+      .address {
+        color: #212121;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px
+      }
+      .map {
+        color: #FFF;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px
+      }
+
+      
       
