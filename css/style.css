@@ -86,7 +86,7 @@
         font-optical-sizing: auto;
         font-style: normal;
       }
-      .worker-name {
+      .command-name {
  color: #212121;
 font-family: Roboto;
 font-size: 16px;
@@ -94,7 +94,7 @@ font-style: italic;
 font-weight: 500;
 line-height: 1,18;
       }
-      .worker-work {
+      .command-text {
 color: #757575;
 font-family: Roboto;
 font-size: 16px;
@@ -103,8 +103,8 @@ font-weight: 400;
 line-height: 1,18;
 
       }
-      .our-command{
-        olor: #212121;
+      .command-title{
+        color: #212121;
 
 
 font-family: Roboto;
@@ -113,7 +113,7 @@ font-style: italic;
 font-weight: 700;
 line-height: 1,16;
       }
-      .do{
+      .work-title{
         color: #212121;
 font-family: Roboto;
 font-size: 36px;
@@ -121,7 +121,7 @@ font-style: italic;
 font-weight: 700;
 line-height: 1,16;
       }
-      .dtails-about {
+      .about-title {
         color: #212121;
 font-family: Roboto;
 font-size: 14px;
@@ -129,7 +129,7 @@ font-style: italic;
 font-weight: 700;
 line-height: 0,87;
       }
-      .dtails-subtitle {
+      .about-text {
         color: #757575;
 
         font-family: Roboto;
@@ -138,7 +138,7 @@ line-height: 0,87;
         font-weight: 400;
         line-height: 24px;
       }
-      .decision-title {
+      .hero-title {
         color: #FFF
 
 font-family: Roboto;
@@ -166,7 +166,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
       }
-      .header-address {
+      .header-link {
         color: #212121;
 
 font-family: Roboto;
@@ -196,7 +196,7 @@ font-weight: 700;
 line-height: 36px;
 
       }
-      .hero-subtitle_{
+      .hero-text_{
         color: #757575;
 
 font-family: Roboto;
@@ -206,7 +206,7 @@ font-weight: 400;
 line-height: 30px;
       }
 
-      .footer-studio {
+      .footer-logo {
         color: #000;
 font-family: Raleway;
 font-size: 26px;
@@ -214,7 +214,7 @@ font-style: italic;
 font-weight: 700;
 line-height: 1,38;
 }
-.footer-address {
+.footer-link {
   color: #212121;
 
 font-family: Roboto;
