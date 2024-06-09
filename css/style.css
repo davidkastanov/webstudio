@@ -6,42 +6,40 @@
     --main-background:#FFF;
     --team-background:#F5F4FA;
     --footer-number:rgba(255, 255, 255, 0.60);
+    --addres-color:#757575;
+    }
+    body {
+      font-family: "Roboto";
     }
     
 .web {
-  color: #2196F3;
+  color: var(--acssent-color);
 font-family: "Raleway";
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 .studio {
-  color: #000;
+  color: var(--logo-color);
 font-family: "Raleway";
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 .nav-items {
-  color: #212121;
-font-family: "Roboto";
+  color: var(--text-color);
 font-size: 14px;
-font-style: italic;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .header-link {
-  color: #757575;
-font-family: "Roboto";
+  color: var(--addres-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .main {
@@ -51,120 +49,98 @@ letter-spacing: 0.28px;
   background-color: var(--footer-background);
 }
 .hero-title {
-  color: #FFF;
+  color: var(--main-background);
 text-align: center;
-font-family: "Roboto";
 font-size: 44px;
-font-style: normal;
 font-weight: 900;
 line-height: 60px;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 .hero-button {
-  width: 216px;
-height: 50px;
-flex-shrink: 0;
 border-radius: 4px;
-background: #2196F3;
+background: var(--acssent-color);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .about-title {
-  color: #212121;
-font-family: "Roboto";
+  color: var(--text-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 .about-text {
-  color: #757575;
-font-family: "Roboto";
+  color: var(--addres-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 24px;
 letter-spacing: 0.42px;
 }
 .work-title {
-  color: #212121;
+  color: var(--text-color);
 
 text-align: center;
-font-family: "Roboto";
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.16;
 letter-spacing: 1.08px;
 }
 .command {
   background-color: var(--team-background);
 }
 .command-title {
-  color: #212121;
+  color:  var(--text-color);
 text-align: center;
-font-family: "Roboto";
 font-size: 36px;
-font-style: italic;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
 }
 .command-name {
-  color: #212121;
+  color:  var(--text-color);
 
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
-font-style: italic;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
 }
 .command-text {
-  color: #757575;
+  color: var(--addres-color);
 
 text-align: center;
-font-family: "Roboto";
 font-size: 16px;
-font-style: italic;
 font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
 }
 .footer {
-  background-color: var(--footer-background);
+  background-color: var(--addres-color);
   width: 1600px;
 height: 252px;
 
 }
-.studio_ {
-  color: #FFF;
-font-family: Raleway;
+.studio {
+  color: var(--main-background);
+font-family: "Raleway";
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 .footer-map {
-  color: #FFF;
+  color: var(--main-background);
 
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
 .footer-link {
-  color: rgba(255, 255, 255, 0.60);
+  color: var(--addres-color);
 
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
@@ -173,10 +149,8 @@ letter-spacing: 0.42px;
   background-color: var(--main-background);
 }
 .hero-title_ {
-  color: #212121;
-font-family: Roboto;
+  color: var(--text-color);
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
 line-height: 36px; /* 200% */
 letter-spacing: 1.08px;
@@ -184,11 +158,9 @@ Content
 
 }
 .hero-text_ {
-  color: #757575;
+  color: var(--addres-color);
 
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.48px;
