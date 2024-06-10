@@ -58,9 +58,7 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 .hero-button {
-border-radius: 4px;
 background: var(--acssent-color);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .about-title {
   color: var(--text-color);
@@ -116,12 +114,12 @@ line-height: 1.18;
 letter-spacing: 0.48px;
 }
 .footer {
-  background-color: var(--addres-color);
+  background-color: var(--footer-background);
   width: 1600px;
 height: 252px;
 
 }
-.studio {
+.studio_ {
   color: var(--main-background);
 font-family: "Raleway";
 font-size: 26px;
