@@ -17,10 +17,11 @@
       padding-right: 15px;
       margin-left: auto;
       margin-right: auto;
+      outline: 1px solid red;
     }
-    .header-studio {
-      margin-top: 24px;
-      margin-bottom: 25px;
+    .header {
+      padding-top: 25px;
+      padding-bottom: 24px;
     }
 .web {
   color: var(--acssent-color);
@@ -29,6 +30,7 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+
 }
 .studio {
   color: var(--logo-color);
@@ -37,6 +39,7 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+
 }
 .nav-items {
   color: var(--text-color);
@@ -44,8 +47,8 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
-margin-top: 32px;
-margin-bottom: 32px;
+
+
 }
 .header-link {
   color: var(--addres-color);
@@ -53,14 +56,16 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
-margin-top: 32px;
-margin-bottom: 32px;
+
+
 }
 .main {
   background-color: var(--main-background);
 }
 .hero {
   background-color: var(--footer-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--main-background);
@@ -70,13 +75,15 @@ font-weight: 900;
 line-height: 1.36;
 letter-spacing: 2.64px;
 text-transform: uppercase;
-margin-top: 200px;
-margin-bottom: 280px;
+
 }
 .hero-button {
 background: var(--acssent-color);
 margin-top: 350px;
 margin-bottom: 200px;
+}
+.about {
+  padding-top: 94px;
 }
 .about-title {
   color: var(--text-color);
@@ -85,8 +92,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-margin-top: 94px;
-margin-bottom: 176px;
+
 }
 .about-text {
   color: var(--addres-color);
@@ -94,8 +100,11 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.42px;
-margin-top: 10px;
-margin-bottom: 118px;
+
+}
+.work {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .work-title {
   color: var(--text-color);
@@ -105,13 +114,15 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-margin-bottom: 50px;
+
 }
 .work-img {
   margin-bottom: 94px;
 }
 .command {
   background-color: var(--team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .command-title {
   color:  var(--text-color);
@@ -120,8 +131,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-margin-top: 94px;
-margin-bottom: 512px;
+
 }
 .command-img {
   margin-top: 186px;
@@ -134,8 +144,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
-margin-top: 30px;
-margin-bottom: 10px;
+
 }
 .command-text {
   color: var(--addres-color);
@@ -150,6 +159,8 @@ letter-spacing: 0.48px;
   background-color: var(--footer-background);
   width: 1600px;
 height: 252px;
+padding-top: 60px;
+padding-bottom: 60px;
 
 }
 .studio_ {
