@@ -12,11 +12,16 @@
       font-family: "Roboto";
     }
     .container {
-      width: 1170px;
-      height: 2346px;
-      padding: 30px;
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
+    .header-studio {
+      margin-top: 24px;
+      margin-bottom: 25px;
+    }
 .web {
   color: var(--acssent-color);
 font-family: "Raleway";
@@ -39,6 +44,8 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+margin-top: 32px;
+margin-bottom: 32px;
 }
 .header-link {
   color: var(--addres-color);
@@ -46,6 +53,8 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+margin-top: 32px;
+margin-bottom: 32px;
 }
 .main {
   background-color: var(--main-background);
@@ -61,9 +70,13 @@ font-weight: 900;
 line-height: 1.36;
 letter-spacing: 2.64px;
 text-transform: uppercase;
+margin-top: 200px;
+margin-bottom: 280px;
 }
 .hero-button {
 background: var(--acssent-color);
+margin-top: 350px;
+margin-bottom: 200px;
 }
 .about-title {
   color: var(--text-color);
@@ -72,6 +85,8 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-top: 94px;
+margin-bottom: 176px;
 }
 .about-text {
   color: var(--addres-color);
@@ -79,6 +94,8 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.42px;
+margin-top: 10px;
+margin-bottom: 118px;
 }
 .work-title {
   color: var(--text-color);
@@ -88,6 +105,10 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+.work-img {
+  margin-bottom: 94px;
 }
 .command {
   background-color: var(--team-background);
@@ -99,6 +120,11 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+margin-top: 94px;
+margin-bottom: 512px;
+}
+.command-img {
+  margin-top: 186px;
 }
 .command-name {
   color:  var(--text-color);
@@ -108,6 +134,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
+margin-top: 30px;
+margin-bottom: 10px;
 }
 .command-text {
   color: var(--addres-color);
