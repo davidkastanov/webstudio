@@ -104,8 +104,8 @@ letter-spacing: 0.42px;
 
 }
 .work {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .work-title {
   color: var(--text-color);
@@ -157,9 +157,7 @@ line-height: 1.18;
 letter-spacing: 0.48px;
 }
 .footer {
-  background-color: var(--footer-background);
-  width: 1600px;
-height: 252px;
+background-color: var(--footer-background);
 padding-top: 60px;
 padding-bottom: 60px;
 
