@@ -22,7 +22,14 @@
     .header {
       padding-top: 25px;
       padding-bottom: 24px;
+      
     }
+
+    .header-studio {
+      display: flex;
+      
+    }
+
 .web {
   color: var(--acssent-color);
 font-family: "Raleway";
@@ -39,7 +46,10 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
-
+gap: 91px;
+}
+.nav-list {
+  display: flex;
 }
 .nav-items {
   color: var(--text-color);
@@ -50,6 +60,9 @@ letter-spacing: 0.28px;
 display: flex;
 
 
+}
+.heder-list {
+  display: flex;
 }
 .header-link {
   color: var(--addres-color);
