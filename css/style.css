@@ -164,6 +164,9 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 
 }
+.about-item {
+  display: flex;
+}
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
