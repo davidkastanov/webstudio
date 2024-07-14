@@ -167,6 +167,10 @@ letter-spacing: 0.42px;
 .about-item {
   display: flex;
 }
+.work-img {
+  margin-bottom: 94px;
+}
+
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -181,9 +185,7 @@ line-height: 1.16;
 letter-spacing: 1.08px;
 
 }
-.work-img {
-  margin-bottom: 94px;
-}
+
 .command {
   background-color: var(--team-background);
   padding-top: 94px;
@@ -220,6 +222,9 @@ font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
 }
+.footer-logo {
+  margin-bottom: 20px;
+}
 .footer {
 background-color: var(--footer-background);
 padding-top: 60px;
@@ -249,6 +254,8 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+margin-top: 9px;
+margin-bottom: 9px;
 }
 .hiro {
   background-color: var(--main-background);
