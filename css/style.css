@@ -143,9 +143,10 @@ letter-spacing: 0.96px;
 .about {
   padding-top: 94px;
 }
-.about-box {
-  
-  width: 270px;
+
+.about-list {
+  display: flex;
+  gap: 30px;
 }
 .about-title {
   color: var(--text-color);
@@ -154,6 +155,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 
 }
 .about-text {
@@ -164,9 +166,7 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 
 }
-.about-item {
-  display: flex;
-}
+
 .work-img {
   margin-bottom: 94px;
 }
@@ -177,6 +177,7 @@ letter-spacing: 0.42px;
 }
 .work-title {
   color: var(--text-color);
+  margin-bottom: 50px;
 
 text-align: center;
 font-size: 36px;
@@ -185,11 +186,20 @@ line-height: 1.16;
 letter-spacing: 1.08px;
 
 }
+.work-list {
+  display: flex;
+  gap: 30px;
+}
 
 .command {
   background-color: var(--team-background);
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.command-list {
+  display: flex;
+  gap: 30px;
 }
 .command-title {
   color:  var(--text-color);
@@ -198,10 +208,16 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-
+margin-bottom: 50px;
 }
+
 .command-img {
-  margin-top: 186px;
+  width: 270px;
+}
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--main-background);
 }
 .command-name {
   color:  var(--text-color);
@@ -211,7 +227,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
-
+margin-bottom: 10px;
 }
 .command-text {
   color: var(--addres-color);
@@ -222,9 +238,7 @@ font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
 }
-.footer-logo {
-  margin-bottom: 20px;
-}
+
 .footer {
 background-color: var(--footer-background);
 padding-top: 60px;
@@ -239,6 +253,10 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
+.footer-address {
+  margin-top: 20px;
+  font-style: normal;
+}
 .footer-map {
   color: var(--main-background);
 
@@ -246,6 +264,12 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+.footer-list {
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 .footer-link {
   color: var(--addres-color);
