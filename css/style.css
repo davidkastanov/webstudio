@@ -129,8 +129,10 @@ width: 696px;
 .hero-button {
   background-color: var(--acssent-color);
 margin-top: 30px;
-width: 216px;
-height: 50px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-right: 32px;
+padding: 32px;
 flex-shrink: 0;
 border-radius: 4px;
 border: none;
@@ -158,6 +160,7 @@ text-transform: uppercase;
 margin-bottom: 10px;
 
 }
+
 .about-text {
   color: var(--addres-color);
 font-size: 14px;
