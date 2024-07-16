@@ -54,7 +54,7 @@ letter-spacing: 0.78px;
 gap: 91px;
 }
 .header-nav {
-  margin-right: 344px;
+  margin-right: auto;
   margin-left: 93px;
 }
 
@@ -253,6 +253,15 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
+.web_ {
+  color: var(--acssent-color);
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
 .footer-address {
   margin-top: 20px;
   font-style: normal;
@@ -299,7 +308,6 @@ margin-bottom: 9px;
   color: var(--logo-color);
 text-align: center;
 font-size: 16px;
-font-style: 1.5;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
