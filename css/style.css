@@ -305,6 +305,17 @@ letter-spacing: 0.42px;
 margin-top: 9px;
 margin-bottom: 9px;
 }
+.hero-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.hero-item:hover {
+  width: 370px;
+    height: 399px;
+    border: 1px solid var(--border-color);
+    background: var(--title-color);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    border: none;
+}
 .hiro-batton {
   display: flex;
     justify-content: center;
@@ -326,20 +337,36 @@ margin-bottom: 9px;
   border-radius: 4px;
   background: var(--acssent-color);
 }
-.hero-batton {
+.hero-batton_ {
   color: var(--logo-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62; /* 162.5% */
   letter-spacing: 0.48px;
+
   border-radius: 4px;
   background: var(--team-background);
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-right: 25px;
+  padding-left: 25px;
   border: none;
+}
+.hero-batton_:hover {
+  color: var(--main-background);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: var(--acssent-color);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border: none;
 }
   
 
@@ -371,11 +398,13 @@ line-height: 1.87;
 letter-spacing: 0.48px;
 }
 .tovar-box {
-  color: var(--team-background);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  border: 1px solid var(--team-background);
+    border-top: none;
+    width: 370px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
