@@ -327,23 +327,20 @@ margin-bottom: 9px;
   background: var(--acssent-color);
 }
 .hero-batton {
- 
-    color: var(--logo-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62; /* 162.5% */
-    letter-spacing: 0.48px;
-
-    border-radius: 4px;
-    background: var(--background-color1);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 25px;
-    padding-left: 25px;
-    border: none;
+  color: var(--logo-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62; /* 162.5% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: var(--team-background);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border: none;
 }
-
   
 
 .hero-button{
