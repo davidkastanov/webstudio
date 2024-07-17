@@ -166,16 +166,16 @@ letter-spacing: 0.96px;
   gap: 30px;
 }
 .about-box {
+  margin-bottom: 30px;
   width: 270px;
 height: 120px;
 background-color: var(--team-background);
-margin-bottom: 30px;
 }
 .box-img {
-margin-bottom: 25px;
-margin-top: 25px;
-margin-right: 100px;
-margin-left: 100px;
+  padding-bottom: 25px; 
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
 }
 .about-title {
   color: var(--text-color);
