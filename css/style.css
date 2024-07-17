@@ -307,26 +307,45 @@ margin-bottom: 9px;
 }
 .hiro-batton {
   display: flex;
-  justify-content: center;
-  gap: 8px;
-  color: var(--acssent-color);
-  padding-bottom: 50px;
-    
-  
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
 }
 .hiro {
   background-color: var(--main-background);
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.hiro-batton{
-  color: var(--logo-color);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.48px;
+.hero-batton:hover {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62; /* 162.5% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: var(--acssent-color);
 }
+.hero-batton {
+ 
+    color: var(--logo-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+    letter-spacing: 0.48px;
+
+    border-radius: 4px;
+    background: var(--background-color1);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+}
+
+  
+
 .hero-button{
   padding-bottom: 6px;
   padding-top: 6px;
