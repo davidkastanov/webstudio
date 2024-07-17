@@ -27,6 +27,7 @@
     .header {
       padding-top: 25px;
       padding-bottom: 24px;
+      border-bottom: 1px solid var(--team-background);
       
     }
 
@@ -83,8 +84,22 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 display: flex;
-
-
+}
+.nav-link_ {
+  color: var(--acssent-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+display: flex;
+}
+.nav-link__ {
+  color: var(--acssent-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+display: flex;
 }
 .heder-list {
   display: flex;
@@ -323,15 +338,13 @@ letter-spacing: 0.48px;
   flex-wrap: wrap;
   gap: 30px;
 }
-.hero-item {
-  border: 1px solid var(--team-background);
-}
 .hero-title_ {
   color: var(--text-color);
 font-size: 18px;
 font-weight: 700;
 line-height: 2; /* 200% */
 letter-spacing: 1.08px;
+margin-bottom: 4px;
 
 }
 .hero-text_ {
