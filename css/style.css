@@ -17,7 +17,6 @@
       padding-right: 15px;
       margin-left: auto;
       margin-right: auto;
-      outline: 1px solid red;
     }
     .header-box {
       display: flex;
@@ -156,6 +155,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1.88; 
 letter-spacing: 0.96px;
+box-shadow: 0px 4px 4px 0px var(--logo-color);
 }
 .about {
   padding-top: 94px;
@@ -277,6 +277,9 @@ letter-spacing: 1.08px;
 .command-list {
   display: flex;
   gap: 30px;
+}
+.command-item {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 .command-title {
   color:  var(--text-color);
@@ -406,7 +409,6 @@ margin-bottom: 9px;
   font-weight: 500;
   line-height: 1.62; /* 162.5% */
   letter-spacing: 0.48px;
-
   border-radius: 4px;
   background: var(--team-background);
   padding-top: 6px;
@@ -429,6 +431,7 @@ margin-bottom: 9px;
     padding-right: 22px;
     padding-left: 22px;
     border: none;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
   
 
