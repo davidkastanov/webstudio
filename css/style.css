@@ -122,7 +122,7 @@ letter-spacing: 0.28px;
   background-color: var(--main-background);
 }
 .hero {
-  background-color: var(--footer-background);
+  background-image: url(../img/mechanical-office.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
