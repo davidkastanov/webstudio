@@ -428,19 +428,14 @@ margin-bottom: 9px;
     background: var(--acssent-color);
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 25px;
+    padding-left: 25px;
     border: none;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
   
 
-.hero-button{
-  padding-bottom: 6px;
-  padding-top: 6px;
-  padding-right: 22px;
-  padding-left: 22px;
-}
+
 .hero-list {
   display: flex;
   flex-wrap: wrap;
