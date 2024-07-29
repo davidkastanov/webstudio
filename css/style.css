@@ -284,7 +284,6 @@ letter-spacing: 1.08px;
 }
 .command-item {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-  border-radius: 0px 0px 4px 4px;
 }
 .command-title {
   color:  var(--text-color);
@@ -303,7 +302,7 @@ margin-bottom: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--main-background);
-  
+  border-radius: 0px 0px 4px 4px;
 }
 .command-name {
   color:  var(--text-color);
