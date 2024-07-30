@@ -127,22 +127,21 @@ letter-spacing: 0.28px;
     rgba(47, 48, 58, 0.40)
   ), 
   url(../img/mechanical-office.jpg);
+  background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
 .hero-title {
   margin-left: auto;
- margin-right: auto;
+  margin-right: auto;
   color: var(--main-background);
 font-size: 44px;
 font-weight: 900;
 line-height: 1.36;
 letter-spacing: 2.64px;
 text-transform: uppercase;
-
 width: 696px;
-
 }
 .hero-button {
   background-color: var(--acssent-color);
@@ -284,15 +283,17 @@ letter-spacing: 1.08px;
 }
 .command-item {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  
 }
 .command-title {
-  color:  var(--text-color);
+  color:  var(--logo-color);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
 margin-bottom: 50px;
+
 }
 
 .command-img {
@@ -305,7 +306,7 @@ margin-bottom: 50px;
   border-radius: 0px 0px 4px 4px;
 }
 .command-name {
-  color:  var(--text-color);
+  color:  var(--logo-color);
 
 text-align: center;
 font-size: 16px;
