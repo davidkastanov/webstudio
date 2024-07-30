@@ -303,7 +303,7 @@ margin-bottom: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--main-background);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
 }
 .command-name {
   color:  var(--logo-color);
