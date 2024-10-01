@@ -251,11 +251,29 @@
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  
+
   }
   .work-list {
     display: flex;
     gap: 30px;
+  }
+  .work-item 
+  .work-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.80);
+    color: var(--title-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
   }
   
   .command {
