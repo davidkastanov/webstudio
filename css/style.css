@@ -257,6 +257,9 @@
     display: flex;
     gap: 30px;
   }
+  .work-item {
+    position: relative;
+  }
   .work-text {
     display: flex;
     justify-content: center;
@@ -266,7 +269,7 @@
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.80);
-    color: var(--title-color);
+    color: var(--main-background);
     text-align: center;
     font-size: 14px;
     font-weight: 700;
@@ -288,7 +291,6 @@
   .command-item {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-    
   }
   .command-title {
     color:  var(--logo-color);
@@ -380,6 +382,7 @@
   padding-bottom: 60px;
   
   }
+
   .studio_ {
     color: var(--main-background);
   font-family: "Raleway";
@@ -433,6 +436,7 @@
     margin-top: 9px;
     margin-bottom: 9px;
   }
+  
   .hero-item {
     flex-basis: calc((100% - 60px) / 3);
   }
