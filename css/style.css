@@ -131,7 +131,7 @@ img {
   height: 12px;
   margin-top: auto;
   margin-bottom: auto;
-  fill: var(--text-color);
+  fill: var(--footer-bcg-color);
 }
 
 
