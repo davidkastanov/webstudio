@@ -37,7 +37,7 @@
         <section class="hero">
             <div class="container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-btn">Замовити послугу</button>
+            <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <!-- Ми -->
@@ -332,7 +332,62 @@
             </li>
         </ul>
         </div>
+        <div class="mailing">
+            <form class="mailing-form">
+                <div class="mailing-box">
+                <label for="mailing" class="mailing-signature">Підпишіться на розсилку</label>
+                <input type="email" id="mailing" class="mailing-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Будь ласка, введіть коректну електронну адресу." placeholder="E-mail">
+                </div>
+                <button class="mailing-btn">
+                    Підписатися
+                <svg class="mailing-img">
+                    <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+                </button>
+            </form>
+        </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+           <form class="modal-form">
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <label for="name" class="modal-signature">Ім'я</label>
+            <div  class="modal-wraper">
+                <input type="text" id="name" class="modal-input" required>
+            <svg class="modal-icon" >
+                <use href="./img/symbol-defs.svg#icon-modal-person"></use>
+            </svg>
+        </div >
+            <label for="phone" class="modal-signature">Телефон</label>
+           <div  class="modal-wraper">
+             <input type="tel" id="phone" class="modal-input" required pattern="^\+?3?8?(0\d{9})$" placeholder="+380XXXXXXXXX">
+            <svg class="modal-icon">
+                <use href="./img/symbol-defs.svg#icon-modal-phone"></use>
+            </svg>
+        </div >
+            <label for="mail" class="modal-signature">Пошта</label>
+            <div  class="modal-wraper">
+            <input type="email" name="" id="mail" class="modal-input" required>
+            <svg class="modal-icon">
+                <use href="./img/symbol-defs.svg#icon-modal-envelope"></use>
+            </svg>
+        </div>           
+        <label for="com" class="modal-signature">Коментар</label>
+            <textarea name="" id="com" class="modal-com" placeholder="Введіть текст"></textarea>
+            <label class="modal-chek">
+                <input type="checkbox" class="chek-input" required> 
+                <span class="chek-span">Погоджуюся з розсилкою та приймаю</span> 
+                <a href="#" class="check-link"> Умови договору</a>
+            </label>
+            <button type="submit" class="modal-btn">Відправити</button>
+           </form> 
+                <button type="button" class="btn-close" data-modal-close><svg class="icon-close">
+                    <use href="./img/symbol-defs.svg#icon-modal-close"></use>
+                </svg></button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
